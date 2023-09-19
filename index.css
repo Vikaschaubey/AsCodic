@@ -5,7 +5,7 @@
 /* head */
 .logo{
     width:100%;
-    height: 50px;
+    height: 3rem;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -13,15 +13,15 @@
 }
 .logo_img{
     background-image: url(logo.png);
-    width: 200px;
-    height: 40px;
+    width: 15%;
+    height: 2.5rem;
     background-size: contain;
     /* border: 1px solid white; */
 
 }
 .head{
     width: 100%;
-    height: 50px;
+    height: 3rem;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
@@ -30,28 +30,28 @@
 }
 .house_logo{
     margin-left: 30px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .search{
     margin-right: 30px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .tags{
-    width:700px ;
+    width:40%;
     height : auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .tags a{
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 700;
     text-decoration: none;
     color: #FF6B00;
     
 }
 .tags a:hover{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bolder;
     /* text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4); */
 }
@@ -59,10 +59,10 @@
 
 .container{
     width: 100%;
-    height: 624px;
+    height: 40rem;
     background-image: url(Rectangle1.png);
     background-size: cover;
-    animation: move 6s ease-in-out 1s infinite ;
+    animation: move 15s ease-in-out 1s infinite ;
 }
 @keyframes move{
     0%{
@@ -96,7 +96,7 @@
 /* middle1 */
 .middle{
     width: 100%;
-    height: 600px;
+    height: 40rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,28 +104,28 @@
 }
 .box{
     width: 80%;
-    height: 350px;
+    height: 23rem;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .box1{
-    height: 350px;
+    height: 100%;
     width: 25%;
     border: 1px solid black;
     background-image: url(pic1.jpg);
     background-size: cover;
 }
 .box2{
-    height: 350px;
+    height: 100%;
     width: 25%;
     border: 1px solid black;
     background-image: url(pic2.png);
     background-size: cover;
 }
 .box3{
-    height: 350px;
+    height: 100%;
     width: 25%;
     border: 1px solid black;
     background-image: url(pic3.png);
@@ -137,7 +137,7 @@
 
 .middle2{
     width: 100%;
-    height: 1600px;
+    height: 100rem;
     
     display: flex;
     align-items: center;
@@ -148,14 +148,14 @@
     height: auto;
     /* border: 1px solid black; */
     text-align: center;
-    border-radius: 30px;
+    border-radius: 2rem;
     background-color: #F2F2F2;
     
 }
 .name{
-    margin-top: 50px;
+    margin-top: 3rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     color: #37709D;
 }
 .name span{
@@ -163,7 +163,7 @@
 }
 
 .navbar{
-    height: 1400px;
+    height: 95rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -171,9 +171,9 @@
     margin-bottom: 40px;
 }
 .topic{
-    height: 70px;
+    height: 4.2rem;
     width: 90%;
-    border-radius: 4px;
+    border-radius: 0.2rem;
     background-color: white;
     
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.341);
@@ -183,22 +183,22 @@
 }
 .topic h3{
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 2rem;
 }
 .topic i{
     margin-right: 40px ;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 
 /* Footer */
 footer{
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
 .foot{
-    padding-top: 50px;
-    height: 400px;
+    padding-top: 3rem;
+    height: 25rem;
     width: 100%;
     background-color: #2F2F2F;
     display: flex;
@@ -206,14 +206,19 @@ footer{
     align-items: flex-start;
 }
 .foot1{
-    height: 320px;
+    height: 20rem;
     width: 50%;
     
 }
-
+.logo_i{
+    background-image: url(logo.png);
+    width: 25%;
+    height: 2.5rem;
+    background-size: contain;
+}
 .para{
-    margin-top: 10px;
-    padding: 20px;
+    margin-top: 0.6rem;
+    padding: 1.25rem;
     color: white;
 }
 .contact{
@@ -222,19 +227,19 @@ footer{
     justify-content: flex-start;
     align-items: flex-start;
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 .contact p{
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 0px;
     padding-bottom: 10px;
     
 }
 .contact .link{
     height: auto;
-    width: 200px;
-    font-size: 24px;
+    width: 13rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -242,8 +247,8 @@ footer{
 
 
 .foot2{
-    margin-left: 100px;
-    height: 340px;
+    margin-left: 11.2rem;
+    height: 21.5rem;
     width: 20%;
     
     color: white;
@@ -254,11 +259,11 @@ footer{
 
 .foot2 h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 .foot2 a{  
-    font-size: 18px;
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
     transition: 1s ease-in;
